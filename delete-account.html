@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - Odisha Exam Prep</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #ef4444; /* Red color for deletion/warning */
+            --bg-color: #f8fafc;
+            --text-color: #1e293b;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #b91c1c 0%, #ef4444 100%);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+        }
+
+        .header h1 { margin: 0; font-size: 2.2rem; }
+        .header p { opacity: 0.9; margin-top: 10px; }
+
+        .container {
+            max-width: 800px;
+            margin: -30px auto 40px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+
+        .warning-box {
+            background-color: #fef2f2;
+            border-left: 5px solid #ef4444;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+
+        h2 { color: #b91c1c; font-size: 1.4rem; margin-top: 25px; }
+        p { color: #475569; font-size: 1.05rem; }
+
+        .step-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .step-number {
+            background: #ef4444;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+            font-weight: bold;
+        }
+
+        .btn-group {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .action-btn {
+            display: inline-block;
+            background: #ef4444;
+            color: white !important;
+            padding: 15px 35px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+        }
+
+        .action-btn:hover {
+            background: #dc2626;
+            transform: translateY(-2px);
+        }
+
+        .secondary-link {
+            display: block;
+            margin-top: 20px;
+            color: #64748b;
+            text-decoration: none;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <h1>Account Deletion</h1>
+        <p>Odisha Exam Prep Support</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <div class="warning-box">
+                <strong>⚠️ Warning:</strong> Account deletion is permanent. Once your account is deleted, your progress, mock test scores, and profile information cannot be recovered.
+            </div>
+
+            <h2>How to Request Deletion?</h2>
+            <p>You can request to delete your account and all associated data in two simple ways:</p>
+
+            <div class="step-item">
+                <div class="step-number">1</div>
+                <div>
+                    <strong>Via Online Form (Recommended)</strong><br>
+                    Click the button below to fill out our quick account deletion form. Our team will process it within 48-72 hours.
+                </div>
+            </div>
+
+            <div class="step-item">
+                <div class="step-number">2</div>
+                <div>
+                    <strong>Via Email Support</strong><br>
+                    Send an email from your registered email address to <strong>kumarhemanta.hkb@gmail.com</strong> with the subject line "Request for Account Deletion".
+                </div>
+            </div>
+
+            <h2>What data will be deleted?</h2>
+            <p>Upon receiving your request, we will permanently wipe the following from our <strong>Firebase</strong> database:</p>
+            <ul>
+                <li>Your Full Name and Registered Email.</li>
+                <li>Your complete Mock Test History.</li>
+                <li>Calculated performance statistics and leaderboard data.</li>
+            </ul>
+
+            <div class="btn-group">
+                <a href="https://forms.gle/p8U73GghYFh3W5Z16" class="action-btn">Fill Deletion Request Form</a>
+                <a href="index.html" class="secondary-link">Return to Privacy Policy</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Odisha Exam Prep. We respect your right to privacy.
+        </div>
+    </div>
+
+</body>
+</html>
